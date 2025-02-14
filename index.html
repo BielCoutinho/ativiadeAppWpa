@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha de Aluno de Academia</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ficha do Aluno</h1>
+    <form id="form">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required>
+        <br>
+        <br>
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" required>
+ <br>
+ <br>
+      <label for="peso">Peso (kg):</label>
+      <input type="number" id="peso" required>
+<br>
+<br>
+      <label for="altura">Altura (m):</label>
+      <input type="number" step="0.01" id="altura" required>
+        <br>
+        <br>
+        <img src="img/ficha128.png" alt="Ficha de Aluno">
+      <button type="submit" >Gerar Ficha</button>
+      <br>
+      <br>
+    </form>
+
+    <div id="fichaAluno"></div>
+  </div>
+
+  <!-- Service Worker -->
+  <script src="service-worker.js"></script>
+</body>
+</html>

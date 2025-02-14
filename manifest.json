@@ -1,0 +1,24 @@
+{
+    "name": "Ficha do Aluno de Academia",
+    "short_name": "FichaAluno",
+    "description": "Uma ficha para calcular dados de academia como IMC .",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "icons": [
+
+        {
+            "src": "./img/gym128.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/ficha128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }
+        
+    ]
+}
+      
