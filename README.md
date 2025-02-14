@@ -1,1 +1,3 @@
 # ativiadeAppWpa
+
+![](img/qrcode.png)
