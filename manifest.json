@@ -9,12 +9,12 @@
     "icons": [
 
         {
-            "src": "./img/gym128.png",
+            "src": "./img/gym48.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "./img/ficha128.png",
+            "src": "./img/gym128.png",
             "sizes": "128x128",
             "type": "image/png"
         }
