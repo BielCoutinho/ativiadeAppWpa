@@ -3,6 +3,7 @@
     "short_name": "FichaAluno",
     "description": "Uma ficha para calcular dados de academia como IMC .",
     "start_url": "/atividadeapppwa/",
+    "scope": "/",
     "display": "standalone",
     "orientation": "portrait-primary",
     "dir": "ltr",
