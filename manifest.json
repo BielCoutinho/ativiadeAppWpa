@@ -10,15 +10,35 @@
 
         {
             "src": "./img/gym48.png",
-            "sizes": "48x48",
+            "sizes": "250x250",
             "type": "image/png"
         },
         {
             "src": "./img/gym128.png",
-            "sizes": "128x128",
+            "sizes": "250x250",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/gym512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
         
+    ],
+    "screenshots": [
+        {
+            "src":"./img/screenshots1.png",
+            "sizes": "334x341",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src":"./img/screenshots2.png",
+            "sizes": "1413x756",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+ 
     ]
 }
       
