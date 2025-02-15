@@ -2,15 +2,16 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open('static')
         .then((cache) => {
-            return cache.addAll([
-                '/atividadeapppwa/',
-                '/atividadeapppwa/index.html',
-                '/atividadeapppwa/styles.css',  // Corrigido o caminho do CSS
-                '/atividadeapppwa/app.js',
-                '/atividadeapppwa/img/gym48.png',
-                '/atividadeapppwa/img/gym128.png',
-                '/atividadeapppwa/manifest.json',  // Incluindo o manifesto no cache
-            ]);
+             
+            cache.add('/atividadeapppwa/')
+            cache.add('/atividadeapppwa/index.html')
+            cache.add('/atividadeapppwa/styles.css')  
+            cache.add('/atividadeapppwa/app.js')
+            cache.add('/atividadeapppwa/img/gym48.png')
+            cache.add('/atividadeapppwa/img/gym128.png')
+            cache.add('/atividadeapppwa/manifest.json')  
+
+            
         })
     );
 });

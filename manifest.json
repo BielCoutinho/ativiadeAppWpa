@@ -2,8 +2,10 @@
     "name": "Ficha do Aluno de Academia",
     "short_name": "FichaAluno",
     "description": "Uma ficha para calcular dados de academia como IMC .",
-    "start_url": "/",
+    "start_url": "/atividadeapppwa/",
     "display": "standalone",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
     "background_color": "#ffffff",
     "theme_color": "#007bff",
     "icons": [
