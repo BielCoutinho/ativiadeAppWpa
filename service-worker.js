@@ -18,7 +18,7 @@ self.addEventListener('install', (event) => {
 
 // Ativação
 self.addEventListener('activate', (event) => {
-    console.log("Ativando o service worker...", event)
+    console.log("Ativando o service worker", event)
     return self.clients.claim()
  })
  // Interceptação (solicitações https servindo em cache quando off-line)
